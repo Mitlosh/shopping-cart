@@ -6,7 +6,7 @@ export function Store() {
   const [products, setProducts] = useState<any[]>([])
 
   useEffect(() => {
-    fetch("https://fakestoreapi.com/products/category/electronics")
+    fetch("https://fakestoreapi.com/products/category/jewelery")
       .then((res) => res.json())
       .then((data) => setProducts((prev) => data))
   }, [])

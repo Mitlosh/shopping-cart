@@ -5,11 +5,11 @@ import { useShoppingCart } from "../context/ShoppingCartContext"
 type StoreItemProps = {
   id: number
   image: string
-  title: string
+  name: string
   price: number
 }
 
-export function StoreItem({ id, image, title, price }: StoreItemProps) {
+export function StoreItem({ id, image, name, price }: StoreItemProps) {
   const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart } =
     useShoppingCart()
   const quantity = getItemQuantity(id)
@@ -19,7 +19,7 @@ export function StoreItem({ id, image, title, price }: StoreItemProps) {
       <Card.Img variant="top" src={image} height="300px" style={{ objectFit: "contain" }} />
       <Card.Body className="d-flex flex-column">
         <Card.Title className="d-flex justify-content-between align-items-baseline mb-4">
-          <span className="fs-4">{title}</span>
+          <span className="fs-4">{name}</span>
         </Card.Title>
         <Card.Text>
           <span className="text-muted">{formatCurrency(price)}</span>

@@ -2,6 +2,7 @@ import { Offcanvas, Stack } from "react-bootstrap"
 import { useShoppingCart } from "../context/ShoppingCartContext"
 import { CartItem } from "./CartItem"
 import data from "../data/item.json"
+import { formatCurrency } from "../utilities/formatCurrency"
 
 type ShoppingCartProps = {
   toggleCart: boolean
@@ -9,6 +10,11 @@ type ShoppingCartProps = {
 
 export function ShoppingCart({ toggleCart }: ShoppingCartProps) {
   const { toggleCartDisplay, cartItems } = useShoppingCart()
+
+  const total = cartItems.reduce((acc, cartItem) => {
+    const item = data.find((item) => item.id === cartItem.id)
+    return acc + (item?.price || 0) * cartItem.quantity
+  }, 0)
 
   return (
     <Offcanvas show={toggleCart} placement="end" onHide={toggleCartDisplay}>
@@ -22,10 +28,7 @@ export function ShoppingCart({ toggleCart }: ShoppingCartProps) {
           ))}
           <div className="ms-auto fw-bold fs-5">
             Total:
-            {cartItems.reduce((acc, cartItem) => {
-              const item = data.find((item) => item.id === cartItem.id)
-              return acc + (item?.price || 0) * cartItem.quantity
-            }, 0)}
+            {formatCurrency(total)}
           </div>
         </Stack>
       </Offcanvas.Body>

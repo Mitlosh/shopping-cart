@@ -1,44 +1,44 @@
 [
   {
     "id": 1,
-    "name": "Product 1",
-    "price": 200,
+    "name": "Headphones",
+    "price": 999,
     "description": "Product 1 description",
-    "image": "https://picsum.photos/400/300"
+    "image": "/public/images/headphones.jpg"
   },
   {
     "id": 2,
-    "name": "Product 2",
-    "price": 200,
+    "name": "Keyboard",
+    "price": 4299,
     "description": "Product 2 description",
-    "image": "https://picsum.photos/400/300"
+    "image": "/public/images/keyboard.jpg"
   },
   {
     "id": 3,
-    "name": "Product 3",
-    "price": 200,
+    "name": "Coffee",
+    "price": 349,
     "description": "Product 3 description",
-    "image": "https://picsum.photos/400/300"
+    "image": "/public/images/coffee.jpg"
   },
   {
     "id": 4,
-    "name": "Product 4",
-    "price": 200,
+    "name": "Sneakers",
+    "price": 3199,
     "description": "Product 4 description",
-    "image": "https://picsum.photos/400/300"
+    "image": "/public/images/sneakers.jpg"
   },
   {
     "id": 5,
-    "name": "Product 5",
-    "price": 200,
+    "name": "Sunglasses",
+    "price": 349,
     "description": "Product 5 description",
-    "image": "https://picsum.photos/400/300"
+    "image": "/public/images/sunglasses.jpg"
   },
   {
     "id": 6,
-    "name": "Product 6",
-    "price": 200,
+    "name": "Plant",
+    "price": 19999,
     "description": "Product 6 description",
-    "image": "https://picsum.photos/400/300"
+    "image": "/public/images/plant.jpg"
   }
 ]

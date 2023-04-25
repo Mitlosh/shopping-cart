@@ -5,6 +5,7 @@ import { Store } from "./pages/Store"
 import { About } from "./pages/About"
 import { Navbar } from "./components/Navbar"
 import { ShoppingCartProvider } from "./context/ShoppingCartContext"
+import { ProductDetails } from "./pages/ProductDetails"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/stores" element={<Store />} />
+            <Route path="/stores/:productId" element={<ProductDetails />} />
             <Route path="/about" element={<About />} />
           </Routes>
         </Container>

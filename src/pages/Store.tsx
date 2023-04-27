@@ -7,7 +7,7 @@ export function Store() {
   return (
     <>
       <h1>Store</h1>
-      <Row md={2} xs={1} lg={3} className="g-3">
+      <Row md={2} xs={1} lg={3} className="g-4">
         {storeItems.map((product: any) => (
           <Col key={product.id}>
             <StoreItem {...product} />

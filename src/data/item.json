@@ -1,44 +1,112 @@
 [
   {
     "id": 1,
-    "name": "Headphones",
-    "price": 999,
-    "description": "Product 1 description",
-    "image": "/public/images/headphones.jpg"
+    "product_type": "Shoes",
+    "brand": "Nike",
+    "model": "Air Max 270",
+    "price": 120.99,
+    "color": "Black/Anthracite/White",
+    "size": "EU 42",
+    "material": "Synthetic and mesh upper, rubber sole",
+    "image": "/public/images/nike-air-max.jpg"
   },
   {
     "id": 2,
-    "name": "Keyboard",
-    "price": 4299,
-    "description": "Product 2 description",
-    "image": "/public/images/keyboard.jpg"
+    "product_type": "Shoes",
+    "brand": "Adidas",
+    "model": "Ultraboost 21",
+    "price": 180.0,
+    "color": "Core Black/Gold Metallic/Signal Pink",
+    "size": "EU 44",
+    "material": "Primeblue recycled upper, Boost midsole, rubber outsole",
+    "image": "/public/images/adidas_ultraboost_21.jpg"
   },
   {
     "id": 3,
-    "name": "Coffee",
-    "price": 349,
-    "description": "Product 3 description",
-    "image": "/public/images/coffee.jpg"
+    "product_type": "Shoes",
+    "brand": "Puma",
+    "model": "Suede Classic+",
+    "price": 64.99,
+    "color": "Whisper White/Puma Black",
+    "size": "EU 41",
+    "material": "Suede upper, rubber sole",
+    "image": "/public/images/puma_suede_classic.jpg"
   },
   {
     "id": 4,
-    "name": "Sneakers",
-    "price": 3199,
-    "description": "Product 4 description",
-    "image": "/public/images/sneakers.jpg"
+    "product_type": "Shoes",
+    "brand": "Vans",
+    "model": "Old Skool",
+    "price": 60.0,
+    "color": "True White",
+    "size": "EU 43",
+    "material": "Canvas and suede upper, rubber sole",
+    "image": "/public/images/vans_old_skool.jpg"
   },
   {
     "id": 5,
-    "name": "Sunglasses",
-    "price": 349,
-    "description": "Product 5 description",
-    "image": "/public/images/sunglasses.jpg"
+    "product_type": "Shoes",
+    "brand": "Converse",
+    "model": "Chuck Taylor All Star",
+    "price": 55.0,
+    "color": "Optical White",
+    "size": "EU 44",
+    "material": "Canvas upper, rubber sole",
+    "image": "/public/images/converse_chuck_taylor.jpg"
   },
   {
     "id": 6,
-    "name": "Plant",
-    "price": 19999,
-    "description": "Product 6 description",
-    "image": "/public/images/plant.jpg"
+    "product_type": "Clothes",
+    "brand": "Levi's",
+    "model": "501 Original Fit Jeans",
+    "price": 69.5,
+    "color": "Dark Stonewash",
+    "size": "EU 52",
+    "material": "100% Cotton",
+    "image": "/public/images/levis_501_jeans.jpg"
+  },
+  {
+    "id": 7,
+    "product_type": "Clothes",
+    "brand": "Tommy Hilfiger",
+    "model": "Essential Flag Hoodie",
+    "price": 89.9,
+    "color": "Grey Heather",
+    "size": "EU L",
+    "material": "Cotton blend",
+    "image": "/public/images/tommy_hilfiger_hoodie.jpg"
+  },
+  {
+    "id": 8,
+    "product_type": "Clothes",
+    "brand": "Ralph Lauren",
+    "model": "Custom Slim Fit Polo Shirt",
+    "price": 98.5,
+    "color": "French Navy",
+    "size": "EU M",
+    "material": "Cotton",
+    "image": "/public/images/ralph_lauren_polo.jpg"
+  },
+  {
+    "id": 9,
+    "product_type": "Clothes",
+    "brand": "Calvin Klein",
+    "model": "Modern Cotton Bralette",
+    "price": 36.0,
+    "color": "Black",
+    "size": "EU S",
+    "material": "Cotton blend",
+    "image": "/public/images/adidas_ultraboost_21.jpg"
+  },
+  {
+    "id": 10,
+    "product_type": "Clothes",
+    "brand": "H&M",
+    "model": "Slim Fit Suit Jacket",
+    "price": 99.0,
+    "color": "Dark Blue",
+    "size": "EU 50",
+    "material": "Polyester and viscose blend",
+    "image": "/public/images/hm_suit_jacket.jpg"
   }
 ]

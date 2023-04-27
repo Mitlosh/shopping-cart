@@ -26,7 +26,7 @@ export function ProductDetails() {
       >
         <img src={product?.image} alt="" style={{ width: "300px" }} />
         <div>
-          <h1>{product?.name}</h1>
+          <h1>{product?.model}</h1>
           <p>{formatCurrency(product?.price)}</p>
           <div className="ms-auto">
             {quantity === 0 ? (

@@ -6,11 +6,12 @@ import { Link } from "react-router-dom"
 type StoreItemProps = {
   id: number
   image: string
-  name: string
+  brand: string
+  model: string
   price: number
 }
 
-export function StoreItem({ id, image, name, price }: StoreItemProps) {
+export function StoreItem({ id, image, model, brand, price }: StoreItemProps) {
   const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart } =
     useShoppingCart()
   const quantity = getItemQuantity(id)
@@ -19,9 +20,12 @@ export function StoreItem({ id, image, name, price }: StoreItemProps) {
     <Card className="h-100">
       <Card.Img variant="top" src={image} height="300px" style={{ objectFit: "contain" }} />
       <Card.Body className="d-flex flex-column">
-        <Link to={`/stores/${id}`}>
+        <Card.Text>
+          <span className="text-muted">{brand}</span>
+        </Card.Text>
+        <Link to={`/stores/${id}`} style={{ textDecoration: "none", color: "inherit" }}>
           <Card.Title className="d-flex justify-content-between align-items-baseline mb-4">
-            <span className="fs-4">{name}</span>
+            <span className="fs-4">{model}</span>
           </Card.Title>
         </Link>
         <Card.Text>

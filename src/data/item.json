@@ -7,6 +7,7 @@
     "price": 120.99,
     "color": "Black/Anthracite/White",
     "size": "EU 42",
+    "description": "With a sleek black and anthracite design complemented by white accents, these shoes are perfect for casual wear or for hitting the gym.",
     "material": "Synthetic and mesh upper, rubber sole",
     "image": "/images/nike-air-max.jpg"
   },
@@ -18,6 +19,7 @@
     "price": 180.0,
     "color": "Core Black/Gold Metallic/Signal Pink",
     "size": "EU 44",
+    "description": "With a bold combination of black, gold metallic, and signal pink, these shoes are a stylish and eco-friendly choice.",
     "material": "Primeblue recycled upper, Boost midsole, rubber outsole",
     "image": "/images/adidas_ultraboost_21.jpg"
   },
@@ -29,6 +31,7 @@
     "price": 64.99,
     "color": "Whisper White/Puma Black",
     "size": "EU 41",
+    "description": "These classic shoes from Puma feature a suede upper and a rubber sole, delivering both style and functionality",
     "material": "Suede upper, rubber sole",
     "image": "/images/puma_suede_classic.jpg"
   },
@@ -40,6 +43,7 @@
     "price": 60.0,
     "color": "True White",
     "size": "EU 43",
+    "description": "With a clean white design accented by black Vans stripes, these shoes are a must-have for any skateboarding or streetwear enthusiast.",
     "material": "Canvas and suede upper, rubber sole",
     "image": "/images/vans_old_skool.jpg"
   },
@@ -51,6 +55,7 @@
     "price": 55.0,
     "color": "Optical White",
     "size": "EU 44",
+    "description": "With a timeless white design and Converse branding on the side, these shoes are perfect for any casual outfit.",
     "material": "Canvas upper, rubber sole",
     "image": "/images/converse_chuck_taylor.jpg"
   },
@@ -62,6 +67,7 @@
     "price": 69.5,
     "color": "Dark Stonewash",
     "size": "EU 52",
+    "description": "These jeans from Levi's offer a classic fit and are made from 100% cotton, providing both comfort and durability.",
     "material": "100% Cotton",
     "image": "/images/levis_501_jeans.jpg"
   },
@@ -73,6 +79,7 @@
     "price": 89.9,
     "color": "Grey Heather",
     "size": "EU L",
+    "description": "With the iconic Tommy Hilfiger flag logo on the chest, this hoodie is a cozy and fashionable choice for any casual occasion.",
     "material": "Cotton blend",
     "image": "/images/tommy_hilfiger_hoodie.jpg"
   },
@@ -84,6 +91,7 @@
     "price": 98.5,
     "color": "French Navy",
     "size": "EU M",
+    "description": "This polo shirt from Ralph Lauren features a custom slim fit and is made from high-quality cotton, providing both style and comfort.",
     "material": "Cotton",
     "image": "/images/ralph_lauren_polo.jpg"
   },
@@ -95,6 +103,7 @@
     "price": 36.0,
     "color": "Black",
     "size": "EU S",
+    "description": "This bralette from Calvin Klein is made from a comfortable cotton blend material and features a sleek black design.",
     "material": "Cotton blend",
     "image": "/images/adidas_ultraboost_21.jpg"
   },
@@ -106,6 +115,7 @@
     "price": 99.0,
     "color": "Dark Blue",
     "size": "EU 50",
+    "description": "This suit jacket from H&M features a slim fit and is made from a polyester and viscose blend material, providing both style and comfort.",
     "material": "Polyester and viscose blend",
     "image": "/images/hm_suit_jacket.jpg"
   }

@@ -8,7 +8,7 @@
     "color": "Black/Anthracite/White",
     "size": "EU 42",
     "material": "Synthetic and mesh upper, rubber sole",
-    "image": "/public/images/nike-air-max.jpg"
+    "image": "/images/nike-air-max.jpg"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "color": "Core Black/Gold Metallic/Signal Pink",
     "size": "EU 44",
     "material": "Primeblue recycled upper, Boost midsole, rubber outsole",
-    "image": "/public/images/adidas_ultraboost_21.jpg"
+    "image": "/images/adidas_ultraboost_21.jpg"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "color": "Whisper White/Puma Black",
     "size": "EU 41",
     "material": "Suede upper, rubber sole",
-    "image": "/public/images/puma_suede_classic.jpg"
+    "image": "/images/puma_suede_classic.jpg"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "color": "True White",
     "size": "EU 43",
     "material": "Canvas and suede upper, rubber sole",
-    "image": "/public/images/vans_old_skool.jpg"
+    "image": "/images/vans_old_skool.jpg"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "color": "Optical White",
     "size": "EU 44",
     "material": "Canvas upper, rubber sole",
-    "image": "/public/images/converse_chuck_taylor.jpg"
+    "image": "/images/converse_chuck_taylor.jpg"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "color": "Dark Stonewash",
     "size": "EU 52",
     "material": "100% Cotton",
-    "image": "/public/images/levis_501_jeans.jpg"
+    "image": "/images/levis_501_jeans.jpg"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "color": "Grey Heather",
     "size": "EU L",
     "material": "Cotton blend",
-    "image": "/public/images/tommy_hilfiger_hoodie.jpg"
+    "image": "/images/tommy_hilfiger_hoodie.jpg"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "color": "French Navy",
     "size": "EU M",
     "material": "Cotton",
-    "image": "/public/images/ralph_lauren_polo.jpg"
+    "image": "/images/ralph_lauren_polo.jpg"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "color": "Black",
     "size": "EU S",
     "material": "Cotton blend",
-    "image": "/public/images/adidas_ultraboost_21.jpg"
+    "image": "/images/adidas_ultraboost_21.jpg"
   },
   {
     "id": 10,
@@ -107,6 +107,6 @@
     "color": "Dark Blue",
     "size": "EU 50",
     "material": "Polyester and viscose blend",
-    "image": "/public/images/hm_suit_jacket.jpg"
+    "image": "/images/hm_suit_jacket.jpg"
   }
 ]

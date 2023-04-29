@@ -23,7 +23,7 @@ export function CartItem({ id, quantity }: CartItemProps) {
       />
       <div className="me-auto">
         <div>
-          {item.name}
+          {item.model}
           {quantity > 1 && (
             <span className="text-muted" style={{ fontSize: ".75rem" }}>
               x{quantity}

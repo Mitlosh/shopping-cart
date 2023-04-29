@@ -1,8 +1,9 @@
 import { useParams } from "react-router-dom"
 import storeItems from "../data/item.json"
 import { formatCurrency } from "../utilities/formatCurrency"
-import { Button, Card } from "react-bootstrap"
+import { Button } from "react-bootstrap"
 import { useShoppingCart } from "../context/ShoppingCartContext"
+import GooglePayButton from "@google-pay/button-react"
 
 export function ProductDetails() {
   const { productId } = useParams()
@@ -30,9 +31,50 @@ export function ProductDetails() {
           <p>{formatCurrency(product?.price)}</p>
           <div className="ms-auto">
             {quantity === 0 ? (
-              <Button className="w-100" onClick={() => increaseCartQuantity(Number(productId))}>
-                + Add to Cart
-              </Button>
+              <div>
+                <GooglePayButton
+                  environment="TEST"
+                  buttonSizeMode="fill"
+                  paymentRequest={{
+                    apiVersion: 2,
+                    apiVersionMinor: 0,
+                    allowedPaymentMethods: [
+                      {
+                        type: "CARD",
+                        parameters: {
+                          allowedAuthMethods: ["PAN_ONLY", "CRYPTOGRAM_3DS"],
+                          allowedCardNetworks: ["MASTERCARD", "VISA"],
+                        },
+                        tokenizationSpecification: {
+                          type: "PAYMENT_GATEWAY",
+                          parameters: {
+                            gateway: "example",
+                            gatewayMerchantId: "exampleGatewayMerchantId",
+                          },
+                        },
+                      },
+                    ],
+                    merchantInfo: {
+                      merchantId: "12345678901234567890",
+                      merchantName: "Demo Merchant",
+                    },
+                    transactionInfo: {
+                      totalPriceStatus: "FINAL",
+                      totalPriceLabel: "Total",
+                      totalPrice: "100.00",
+                      currencyCode: "UAH",
+                      countryCode: "UA",
+                    },
+                  }}
+                  onLoadPaymentData={(paymentRequest) => {
+                    console.log("Success", paymentRequest)
+                    // history.push("/success")
+                  }}
+                />
+                <Button className="w-100" onClick={() => increaseCartQuantity(Number(productId))}>
+                  + Add to Cart
+                </Button>
+              </div>
             ) : (
               <div className="d-flex align-items-center flex-column" style={{ gap: ".5em" }}>
                 <div

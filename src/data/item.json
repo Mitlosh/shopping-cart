@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "product_type": "Shoes",
+    "category": "Shoes",
     "brand": "Nike",
     "model": "Air Max 270",
     "price": 120.99,
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "product_type": "Shoes",
+    "category": "Shoes",
     "brand": "Adidas",
     "model": "Ultraboost 21",
     "price": 180.0,
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "product_type": "Shoes",
+    "category": "Shoes",
     "brand": "Puma",
     "model": "Suede Classic+",
     "price": 64.99,
@@ -37,7 +37,7 @@
   },
   {
     "id": 4,
-    "product_type": "Shoes",
+    "category": "Shoes",
     "brand": "Vans",
     "model": "Old Skool",
     "price": 60.0,
@@ -49,7 +49,7 @@
   },
   {
     "id": 5,
-    "product_type": "Shoes",
+    "category": "Shoes",
     "brand": "Converse",
     "model": "Chuck Taylor All Star",
     "price": 55.0,
@@ -61,7 +61,7 @@
   },
   {
     "id": 6,
-    "product_type": "Clothes",
+    "category": "Clothes",
     "brand": "Levi's",
     "model": "501 Original Fit Jeans",
     "price": 69.5,
@@ -73,7 +73,7 @@
   },
   {
     "id": 7,
-    "product_type": "Clothes",
+    "category": "Clothes",
     "brand": "Tommy Hilfiger",
     "model": "Essential Flag Hoodie",
     "price": 89.9,
@@ -85,7 +85,7 @@
   },
   {
     "id": 8,
-    "product_type": "Clothes",
+    "category": "Clothes",
     "brand": "Ralph Lauren",
     "model": "Custom Slim Fit Polo Shirt",
     "price": 98.5,
@@ -97,7 +97,7 @@
   },
   {
     "id": 9,
-    "product_type": "Clothes",
+    "category": "Clothes",
     "brand": "Calvin Klein",
     "model": "Modern Cotton Bralette",
     "price": 36.0,
@@ -109,7 +109,7 @@
   },
   {
     "id": 10,
-    "product_type": "Clothes",
+    "category": "Clothes",
     "brand": "H&M",
     "model": "Slim Fit Suit Jacket",
     "price": 99.0,

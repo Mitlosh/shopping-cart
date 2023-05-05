@@ -26,7 +26,8 @@ export function ProductDetails() {
           <div className="mb-auto">
             <h1>{product?.model}</h1>
             <p>{formatCurrency(product?.price)}</p>
-            <div className="d-flex align-items-center mb-4" style={{ gap: ".5em" }}>
+            <div className="d-flex align-items-center  mb-4" style={{ gap: ".5em" }}>
+              Quantity
               <div className="d-flex align-items-center justify-content-center gap-2">
                 <Button
                   variant="outline-secondary"
@@ -45,10 +46,13 @@ export function ProductDetails() {
                 >
                   +
                 </Button>
+                <Button
+                  variant="outline-secondary"
+                  onClick={() => removeFromCart(Number(productId))}
+                >
+                  Remove
+                </Button>
               </div>
-              <Button variant="outline-secondary" onClick={() => removeFromCart(Number(productId))}>
-                Remove
-              </Button>
             </div>
             <h4>Description</h4>
             <p>{product?.description}</p>

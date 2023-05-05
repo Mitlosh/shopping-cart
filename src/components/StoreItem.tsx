@@ -15,7 +15,7 @@ export function StoreItem({ id, image, model, brand, price }: StoreItemProps) {
   const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart } =
     useShoppingCart()
   const quantity = getItemQuantity(id)
-  console.log(quantity)
+
   return (
     <Card className="h-100">
       <Card.Img variant="top" src={image} height="300px" style={{ objectFit: "contain" }} />
